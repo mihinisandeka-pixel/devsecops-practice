@@ -5,4 +5,4 @@ def greet(name):
 
 print(greet("DevSecOps Learner"))
 
-subprocess.run("echo Hello", shell=True)
+subprocess.run(["echo ","Hello"], check=True)
